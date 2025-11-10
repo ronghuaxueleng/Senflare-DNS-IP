@@ -1,0 +1,29 @@
+{
+  "name": "senflare-dns-ip-nodejs",
+  "version": "1.0.0",
+  "description": "Cloudflare优选域名DNS解析器 - Node.js版本",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --inspect src/index.js"
+  },
+  "keywords": [
+    "dns",
+    "cloudflare",
+    "ip",
+    "resolver",
+    "performance"
+  ],
+  "author": "Senflare-DNS-IP",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dns2": "^2.0.1",
+    "fs-extra": "^11.1.1",
+    "p-limit": "^4.0.0",
+    "winston": "^3.11.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
